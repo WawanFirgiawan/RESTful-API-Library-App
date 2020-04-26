@@ -1,6 +1,6 @@
-# 📚Novel Library API
+# 📚REstfull Library API
 
-A Collection Of Novels API Using NodeJS MySQL ExpressJS
+A Collection Of Books API Using NodeJS MySQL ExpressJS
 
 <p align="center">
   <a href="https://nodejs.org/">
@@ -36,13 +36,11 @@ A Collection Of Novels API Using NodeJS MySQL ExpressJS
   - [Dependencies](#dependencies)
   - [Aplication Structure](#aplication-Structure)
   - [API Docs](#api-docs)
-    - [Novel](#novel)
-    - [Genre](#genre)
 
 ## Build Setup
 
 1. Clone repository
-   `$ git clone https://github.com/iyansr/novel-library-api.git`
+   `$ git clone https://github.com/iyansr/RESTful-API-Library-App.git`
 
 2. Install depedencies
 
@@ -66,7 +64,7 @@ DB_DATABASE  = 'dbname'
 4. Start API server
 
 ```bash
-$ npm run server
+$ yarn start
 ```
 
 ## Stacks
@@ -80,10 +78,11 @@ $ npm run server
 - [expressjs](https://www.npmjs.com/package/express) - The server for handling and routing HTTP requests
 - [morgan](https://www.npmjs.com/package/morgan) - a HTTP request logger middleware for Node.js. It simplifies the process of logging requests to your application
 - [dotenv](https://www.npmjs.com/package/dotenv) - is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
-- [momentjs](https://www.npmjs.com/package/moment) - To convert dateTime from javascript format to mysql format easily
 - [mysql](https://www.npmjs.com/package/mysql) - NodeJs driver for MySQL
 - [body-parser](https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
 - [nodemon](https://www.npmjs.com/package/nodemon) - is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+- [multer](https://www.npmjs.com/package/multer) - Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
+
 
 ## Aplication Structure
 
@@ -96,24 +95,4 @@ $ npm run server
 
 ---
 
-## API Docs
-
-### **Novel**
-
-| Method | Endpoint      | Description      | Request Param    | Request Body                                                                                                                 | Request Query                                                    |
-| ------ | ------------- | ---------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| GET    | /api/novel    | Get Novels       | -                | -                                                                                                                            | `title`:STRING `author`:STRING `genre`: INTEGER `status`:INTEGER |
-| POST   | /api/novel    | Add New Novel    | -                | `title`:STRING (Required) `author`:STRING (Required) `image_url`:STRING `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| PUT    | api/novel/:id | Edit Novel By ID | `id`: INT (UUID) | `title`:STRING (Required) `author`:STRING (Required) `image_url`:STRING `status`:STRING (Required) `genre`:STRING (Required) | -                                                                |
-| DELETE | api/novel     | Delete Novel     | -                | `id`:INT                                                                                                                     | -                                                                |
-
-### **Genre**
-
-| Method | Endpoint   | Description    | Request Param | Request Body              | Request Query |
-| ------ | ---------- | -------------- | ------------- | ------------------------- | ------------- |
-| GET    | /api/genre | Get All Genres | -             | -                         | -             |
-| POST   | /api/genre | Add New Genre  | -             | `genre`:STRING (Required) | -             |
-
----
-
-Copyright © 2019 by I Putu Saputrayana (Iyan Saputra)
+Copyright © 2020 by Wawan Firgiawan
