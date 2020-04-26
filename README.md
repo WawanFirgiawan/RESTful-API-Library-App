@@ -4,7 +4,7 @@ A Collection Of Books API Using NodeJS MySQL ExpressJS
 
 <p align="center">
   <a href="https://nodejs.org/">
-    <img title="Restful API" height='200' src="https://raw.githubusercontent.com/iyansr/novel-library-api/master/img.jpg">
+    <img title="Restful API" height='200' src="https://www.tutsmake.com/wp-content/uploads/2019/03/node-js-rest-api-crud-1024x512.jpeg">
   </a>
 </p>
 <p align="center">
