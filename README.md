@@ -93,6 +93,7 @@ $ yarn start
 - `src/Routes` - Route of our app going here
 - `src/Helpers` - This folder contain file that help you simplify your code such as define the error handling
 - `src/Controllers` - This folder contain configuration files that links Models to Route
+- `src/Uploads` - This folder for image upload
 
 ---
 
