@@ -29,7 +29,7 @@ A Collection Of Books API Using NodeJS MySQL ExpressJS
 
 ## Table Of Contents
 
-- [Novel Library Api](#novel-library-api)
+- [Books Library Api](#books-library-api)
   - [Table Of Content](#table-of-content)
   - [Build Setup](#build-setup)
   - [Stacks](#stacks)
