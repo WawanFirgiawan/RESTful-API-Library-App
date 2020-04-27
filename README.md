@@ -39,7 +39,7 @@ A Collection Of Books API Using NodeJS MySQL ExpressJS
 ## Build Setup
 
 1. Clone repository
-   `$ git clone https://github.com/iyansr/RESTful-API-Library-App.git`
+   `$ https://github.com/WawanFirgiawan/RESTful-API-Library-App`
 
 2. Install depedencies
 
