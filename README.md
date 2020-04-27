@@ -35,7 +35,6 @@ A Collection Of Books API Using NodeJS MySQL ExpressJS
   - [Stacks](#stacks)
   - [Dependencies](#dependencies)
   - [Aplication Structure](#aplication-Structure)
-  - [API Docs](#api-docs)
 
 ## Build Setup
 
